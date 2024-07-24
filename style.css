@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+    height: 12%;
+}
+.kimetsu-logo{
+    width: 100px;
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+}
+.title-box{
+    display: block;
+    margin: 0 auto;
+}
+.titulo{
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+    
+}
+.gyutaro{
+    width: 100vw;
+    height: 200%;
+    transform: rotate(270deg);
+    position: relative;
+    top: -190px;
+    
+}
+
+.lua6{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  
+}
+.lua6::after {
+    background: linear-gradient(120deg, rgba(10, -12, -16, -0, -0.99)15% );
+}
+.description06{
+    color: #ffffff;
+    width: 450px;
+    position: relative;
+    left: 60%;
+    top: 130px;
+}
